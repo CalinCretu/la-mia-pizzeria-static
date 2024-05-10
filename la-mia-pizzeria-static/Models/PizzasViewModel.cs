@@ -5,11 +5,11 @@
         public string Name { get; set; }
         public string Description { get; set; }
         public string Immage { get; set; }
-        public float Price { get; set; }
+        public double Price { get; set; }
 
         public PizzasViewModel() { }
 
-        public PizzasViewModel(string name, string description, string immage, float price)
+        public PizzasViewModel(string name, string description, string immage, double price)
         {
             Name = name;
             Description = description;
