@@ -4,7 +4,7 @@
     {
         public string Name { get; set; }
         public string Description { get; set; }
-        public string Immage { get; set; }
+        public string Image { get; set; }
         public double Price { get; set; }
 
         public PizzasViewModel() { }
@@ -13,7 +13,7 @@
         {
             Name = name;
             Description = description;
-            Immage = immage;
+            Image = immage;
             Price = price;
         }
     }
